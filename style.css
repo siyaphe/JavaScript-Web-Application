@@ -106,4 +106,53 @@ header {
     }
 }
 
+/* ---------------- */
+
+/* .container {
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+} */
+
+.search-container {
+    /* margin-bottom: 20px; */
+    padding: 10px;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchBtn {
+    padding: 10px 20px;
+    background-color: #181818;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.results-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.starContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+
+.person {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
