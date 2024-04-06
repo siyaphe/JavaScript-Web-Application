@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Characters</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">JavaScript<br>Web Application</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="" class="active">HOME</a></li>
+                <li><a href="">PEOPLE</a></li>
+                <li><a href="">PLANETS</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search by name...">
+            <button id="searchBtn">Search</button>
+        </div>
+        <div class="results-container">
+            <h2 class="results-heading">Results</h2>
+            <div class="starContainer"></div>
+        </div>
+    </main>
+
+    <div class="newContainer"></div>
+
+    <script src="data.mjs" type="module" defer></script>
+</body>
+</html>
