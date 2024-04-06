@@ -139,6 +139,7 @@ header {
 .results-heading {
     font-size: 20px;
     margin-bottom: 10px;
+    padding: 20px;
 }
 
 
@@ -146,6 +147,7 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 20px;
+    padding: 10px;
 }
 
 
@@ -156,3 +158,10 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.person h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.person div {
+    margin-bottom: 5px;
+}
