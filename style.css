@@ -49,12 +49,12 @@ header {
 }
 
 .nav-bar ul li a:hover {
-    color: #11101b;
+    color: #181818;
     background: aliceblue;
 }
 
 .nav-bar ul li a.active {
-    color: #11101b;
+    color: #181818;
     background: aliceblue;
 }
 
@@ -78,7 +78,7 @@ header {
         left: 0;
         right: 0;
         width: 100vw;    
-        background: rgb(26, 26, 29);
+        background: #181818;
         transition: 0.5s;
         overflow: hidden;
     }
