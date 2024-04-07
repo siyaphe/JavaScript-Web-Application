@@ -127,6 +127,9 @@ h1 {
     width: 70%;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-left: 5px;
+    margin-left: 90px;
+    align-items: center;
 }
 
 #searchBtn {
@@ -135,6 +138,7 @@ h1 {
     color: aliceblue;
     border: none;
     border-radius: 5px;
+    margin: 10px auto;
     cursor: pointer;
 }
 
@@ -200,4 +204,18 @@ h1 {
 
 .planet:hover {
     transform: translateY(-5px);
+}
+
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
 }
