@@ -4,4 +4,8 @@ mySprints();
 
 
 import {malia} from "./panets.mjs"
-malia()
+malia();
+
+
+import { mybirds } from "./bird.mjs";
+mybirds('US');
