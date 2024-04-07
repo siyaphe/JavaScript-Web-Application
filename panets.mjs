@@ -4,24 +4,24 @@
 
 //function to fetch data
 
-export async function mySprints() {
+export async function malia() {
     try {
         const response = await fetch("https://swapi.dev/api/planets");
         const json = await response.json();
         const botContainer = document.querySelector(".planContainer");
 
         json.results.forEach((element) => {
-            const newPeople = document.createElement('div');
-            newPeople.classList.add('person');
+            const newPlanet = document.createElement('div');
+            newPlanet.classList.add('planet');
 
-            const attributes = ['name', 'height', 'mass', 'hair_color', 'skin_color', 'eye_color', 'birth_year', 'gender'];
+            const attributes = ['name', 'rotation_period', 'orbital_period', 'diameter', 'climate', 'gravity', 'terrain', 'surface_water', 'population'];
             attributes.forEach(attribute => {
                 const div = document.createElement('div');
                 div.textContent = `${attribute}: ${element[attribute]}`;
-                newPeople.appendChild(div);
+                newPlanet.appendChild(div);
             });
 
-            newContainer.appendChild(newPeople);
+            botContainer.appendChild(newPlanet);
         });
     } catch (error) {
         console.error('Error fetching and displaying news:', error);

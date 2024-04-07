@@ -106,10 +106,8 @@ header {
     }
 }
 
-/* ---------------- */
 
 h1 {
-    /* max-width: 800px; */
     text-align: center;
     font-size: 24px;
     margin: 20px auto;
@@ -120,7 +118,7 @@ h1 {
 } 
 
 .search-container {
-    /* margin-bottom: 20px; */
+    
     padding: 10px;
 }
 
@@ -147,7 +145,7 @@ h1 {
 }
 
 
-.starContainer {
+.starContainer, .planContainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 20px;
@@ -168,7 +166,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-.person {
+.person,.planet {
     transition: transform 0.3s ease;
 } 
 
@@ -176,3 +174,30 @@ h1 {
     transform: translateY(-5px);
 }
 
+/* ===================== */
+
+
+.planet {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.planet > div {
+    margin-bottom: 5px;
+}
+
+.planet > div:last-child {
+    margin-bottom: 0;
+}
+
+.planet div {
+    font-size: 16px;
+   
+}
+
+
+.planet:hover {
+    transform: translateY(-5px);
+}
